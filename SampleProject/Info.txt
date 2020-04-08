@@ -1,0 +1,11 @@
+﻿PM> dotnet stryker -s "..\\SampleProject.sln" -r "['html', 'progress']" -tp "['../SampleProject.Tests/SampleProjeect.Stryker.Tests.csproj']" -l "debug"
+
+https://github.com/stryker-mutator/stryker-net/blob/master/docs/Configuration.md
+https://github.com/stryker-mutator/stryker-net
+
+
+#Global install
+dotnet tool install -g dotnet-stryker
+
+#dotnet stryker -s "[SLN]" -r "['html', 'progress']" -tp "['TEST_PROJ']" -l "debug"
+
